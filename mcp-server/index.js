@@ -5,7 +5,6 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import {
   CallToolRequestSchema,
   ListToolsRequestSchema,
-  Tool,
 } from '@modelcontextprotocol/sdk/types.js';
 import { promises as fs } from 'fs';
 import path from 'path';
@@ -69,7 +68,7 @@ const server = new Server(
 );
 
 // Define tools
-const TOOLS: Tool[] = [
+const TOOLS = [
   {
     name: 'list_projects',
     description: 'List all projects',
