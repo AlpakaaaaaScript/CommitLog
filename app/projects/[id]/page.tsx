@@ -397,7 +397,7 @@ export default function ProjectPage() {
                   <button
                     type="button"
                     onClick={() => setShowCreateModal(false)}
-                    className="flex-1 px-6 py-3 bg-dark-600 hover:bg-dark-500 text-white rounded-lg font-semibold transition-all duration-300 border border-gray-700"
+                    className="flex-1 px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg font-semibold transition-all duration-300 border border-gray-700"
                   >
                     Cancel
                   </button>
@@ -507,7 +507,7 @@ export default function ProjectPage() {
                   <button
                     type="button"
                     onClick={() => setShowEditModal(false)}
-                    className="flex-1 px-6 py-3 bg-dark-600 hover:bg-dark-500 text-white rounded-lg font-semibold transition-all duration-300 border border-gray-700"
+                    className="flex-1 px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg font-semibold transition-all duration-300 border border-gray-700"
                   >
                     Cancel
                   </button>
